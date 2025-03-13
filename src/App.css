@@ -30,6 +30,11 @@ body {
 
 .grid-item:hover {
   opacity: 0.5;
+  cursor: grab;
+}
+
+.grid-item:active {
+  cursor: grabbing;
 }
 
 .black {
@@ -38,4 +43,13 @@ body {
 
 .white {
   background-color: rgb(255, 255, 240);
+}
+
+
+.chess-piece{
+  width:87.5px; 
+  height:87.5px; 
+  background-repeat:no-repeat; 
+  background-position:center; 
+  background-size:80px
 }
